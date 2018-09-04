@@ -1,0 +1,12 @@
+apiVersion: "streamzi.io/v1"
+kind: Processor
+metadata:
+  name: log-data
+spec:
+  displayName: "Log Data"
+  description: "Prints the data received to console"
+  imageName: "${dhOrg}/${artifactId}"
+  inputs:
+    - "input-data"
+  outputs:
+  settings:
