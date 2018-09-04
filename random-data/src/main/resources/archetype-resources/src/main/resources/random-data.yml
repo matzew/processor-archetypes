@@ -1,0 +1,12 @@
+apiVersion: "streamzi.io/v1"
+kind: Processor
+metadata:
+  name: random-data-source
+spec:
+  displayName: "Random Source"
+  description: "Generates random doubles 0 < n < 1"
+  imageName: "${dhOrg}/${artifactId}"
+  inputs:
+  outputs:
+    - "output-data"
+  settings:

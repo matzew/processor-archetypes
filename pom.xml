@@ -24,6 +24,7 @@
 
   <modules>
     <module>java-logger</module>
+    <module>random-data</module>
   </modules>
 
 </project>
